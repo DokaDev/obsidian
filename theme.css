@@ -6,34 +6,34 @@
   --highlight-mix-blend-mode: lighten;
   --mono-rgb-0: 0, 0, 0;
   --mono-rgb-100: 255, 255, 255;
-  --color-red-rgb: 251, 70, 76;
-  --color-red: #fb464c;
-  --color-orange-rgb: 233, 151, 63;
-  --color-orange: #e9973f;
-  --color-yellow-rgb: 224, 222, 113;
-  --color-yellow: #e0de71;
-  --color-green-rgb: 68, 207, 110;
-  --color-green: #44cf6e;
-  --color-cyan-rgb: 83, 223, 221;
-  --color-cyan: #53dfdd;
+  --color-red-rgb: 255, 149, 128;
+  --color-red: #FF9580;
+  --color-orange-rgb: 255, 202, 128;
+  --color-orange: #FFCA80;
+  --color-yellow-rgb: 255, 255, 128;
+  --color-yellow: #FFFF80;
+  --color-green-rgb: 138, 255, 128;
+  --color-green: #8AFF80;
+  --color-cyan-rgb: 128, 255, 234;
+  --color-cyan: #80FFEA;
   --color-blue-rgb: 2, 122, 255;
   --color-blue: #027aff;
-  --color-purple-rgb: 168, 130, 255;
-  --color-purple: #a882ff;
-  --color-pink-rgb: 250, 153, 205;
-  --color-pink: #fa99cd;
-  --color-base-00: #1e1e1e;
-  --color-base-05: #212121;
-  --color-base-10: #242424;
-  --color-base-20: #262626;
-  --color-base-25: #2a2a2a;
-  --color-base-30: #363636;
-  --color-base-35: #3f3f3f;
-  --color-base-40: #555555;
-  --color-base-50: #666666;
-  --color-base-60: #999999;
-  --color-base-70: #bababa;
-  --color-base-100: #dadada;
+  --color-purple-rgb: 149, 128, 255;
+  --color-purple: #9580FF;
+  --color-pink-rgb: 255, 128, 191;
+  --color-pink: #FF80BF;
+  --color-base-00: #070809;
+  --color-base-05: #0B0D0F;
+  --color-base-10: #0F1216;
+  --color-base-20: #14181D;
+  --color-base-25: #1A2028;
+  --color-base-30: #232A33;
+  --color-base-35: #2C353F;
+  --color-base-40: #414D58;
+  --color-base-50: #556270;
+  --color-base-60: #708CA9;
+  --color-base-70: #9AADBE;
+  --color-base-100: #C8D5E0;
   --color-accent-hsl: var(--accent-h), var(--accent-s), var(--accent-l);
   --color-accent: hsl(var(--accent-h), var(--accent-s), var(--accent-l));
   --color-accent-1: hsl(var(--accent-h), var(--accent-s), calc(var(--accent-l) - 3.8%));
@@ -52,49 +52,52 @@
   --pdf-thumbnail-shadow: 0 0 0 1px var(--background-modifier-border);
 
   /* Actual Dracula colors*/
-  --background-primary: #282a36;
-  --background-primary-alt: #44475a;
-  --background-secondary: #20212B;
-  --background-secondary-alt: #282a36;
+  --background-primary: #0B0D0F;
+  --background-primary-alt: #121A20;
+  --background-secondary: #121A20;
+  --background-secondary-alt: #0B0D0F;
   --text-normal: #f8f8f2;
-  --text-on-accent: #282a36;
-  --text-title-h1: #bd93f9;
-  --text-title-h2: #ffb86c;
-  --text-title-h3: #50fa7b;
-  --text-title-h4: #ff5555;
-  --text-title-h5: #f1fa8c;
-  --text-title-h6: #bd93f4;
-  --canvas-color-1: 255,  85,  85;
-  --canvas-color-2: 255, 184, 108;
-  --canvas-color-3: 241, 250, 140;
-  --canvas-color-4:  82, 250, 124;
-  --canvas-color-5: 139, 233, 253;
-  --canvas-color-6: 189, 147, 244;
+  --text-on-accent: #0B0D0F;
+  --text-title-h1: #9580FF;
+  --text-title-h2: #FFCA80;
+  --text-title-h3: #8AFF80;
+  --text-title-h4: #FF9580;
+  --text-title-h5: #FFFF80;
+  --text-title-h6: #9580FF;
+  --canvas-color-1: 255, 149, 128;
+  --canvas-color-2: 255, 202, 128;
+  --canvas-color-3: 255, 255, 128;
+  --canvas-color-4: 138, 255, 128;
+  --canvas-color-5: 128, 255, 234;
+  --canvas-color-6: 149, 128, 255;
   --text-link: var(--text-accent);
-  --markup-code: #ffb86c;
-  --text-tag: #50fa7b;
-  --text-a: #ff79c6;
-  --text-a-hover: #ff79c0;
-  --text-mark: #f1fa8c;
-  --interactive-accent: #50fa7b;
-  --blockquote-border: #b294bb;
-  --interactive-accent-rgb: #f1fa8c;
-  --accent-h: 135;
-  --accent-s: 94%;
-  --accent-l: 65%;
+  --markup-code: #FFCA80;
+  --text-tag: #8AFF80;
+  --text-a: #FF80BF;
+  --text-a-hover: #FF80B9;
+  --text-mark: #FFFF80;
+  --interactive-accent: #8AFF80;
+  --blockquote-border: #9580FF;
+  --interactive-accent-rgb: #FFFF80;
+  --accent-h: 115;
+  --accent-s: 100%;
+  --accent-l: 75%;
   --titlebar-background-focused: var(--titlebar-background);
 
   /* Dracula Code view*/
   --code-normal: #F8F8F2;
-  --code-background: #20212B;
+  --code-background: #121A20;
   --dracula-foreground: #F8F8F2;
-  --dracula-Comment: #6272A4;
-  --dracula-keyword: #FF79C6;
-  --dracula-definition: #50FA7B;
+  --dracula-Comment: #708CA9;
+  --dracula-keyword: #FF80BF;
+  --dracula-definition: #8AFF80;
   --dracula-variable: #F8F8F2; /*"variable" tags are used everywhere in code, but Dracula usually only uses orange color only for declaration inputs, thus white is less annoying to look at*/
-  --dracula-number: #BD93F9;
-  --dracula-function: #8BE9FD;
-  --dracula-string: #F1FA8C;
+  --dracula-number: #9580FF;
+  --dracula-function: #80FFEA;
+  --dracula-string: #FFFF80;
+  --code-inline-border: #414D58;
+  --list-indent-color: #80FFEA;
+  --list-formatting-color: #80FFEA;
 }
 
 /* LINKS & BRACKETS */
@@ -308,7 +311,7 @@ code {
 /* borders */
 
 .cm-s-obsidian span.cm-inline-code {
-  border: 1px solid #525660;
+  border: 1px solid var(--code-inline-border);
   border-radius: 4px;
 }
 
@@ -465,7 +468,7 @@ button.mod-cta {
 }
 
 .side-dock-ribbon-tab.is-active .side-dock-ribbon-tab-inner:hover {
-  color: #6272a4 !important;
+  color: var(--dracula-Comment) !important;
   background-color: var(--background-secondary);
 }
 
@@ -809,7 +812,7 @@ ul ul {
 ul ul::before {
   content: "";
   border-left: 1px solid;
-  color: #92CDD6;
+  color: var(--list-indent-color);
   position: absolute;
 }
 
@@ -828,7 +831,7 @@ ul ul::before {
 /* ul, li & ol colors in editor */
 
 .cm-s-obsidian span.cm-formatting-list {
-  color: #8abeb7;
+  color: var(--list-formatting-color);
 }
 
 ol {
@@ -855,10 +858,10 @@ ol {
   }
   .print .markdown-preview-view {
       -webkit-print-color-adjust: exact;
-      background-color: #282a36;
+      background-color: #0B0D0F;
       color: #f8f8f2;
   }
   .markdown-rendered code {
-      color: #BABABA !important;
+      color: #9AADBE !important;
   }
 }

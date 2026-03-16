@@ -1,24 +1,28 @@
 .theme-dark {
-  --background-primary: #282a36;
-  --background-primary-alt: #44475a;
-  --background-secondary: #21222C;
-  --background-secondary-alt: #282a36;
-  --text-normal: #f8f8f2;
-  --text-title-h1: #bd93f9;
-  --text-title-h2: #ffb86c;
-  --text-title-h3: #50fa7b;
-  --text-title-h4: #ff5555;
-  --text-title-h5: #f1fa8c;
-  --text-title-h6: #bd93f4;
-  --text-link: #8be9fd;
-  --markup-code: #ffb86c;
-  --text-tag: #50fa7b;
-  --text-a: #ff79c6;
-  --text-a-hover: #ff79c0;
-  --text-mark: #f1fa8c;
-  --interactive-accent: #50fa7b;
-  --blockquote-border: #b294bb;
-  --interactive-accent-rgb: #f1fa8c;
+  --background-primary: #0B0D0F;
+  --background-primary-alt: #121A20;
+  --background-secondary: #121A20;
+  --background-secondary-alt: #0B0D0F;
+  --text-normal: #F8F8F2;
+  --text-title-h1: #9580FF;
+  --text-title-h2: #FFCA80;
+  --text-title-h3: #8AFF80;
+  --text-title-h4: #FF9580;
+  --text-title-h5: #FFFF80;
+  --text-title-h6: #9580FF;
+  --text-link: #80FFEA;
+  --markup-code: #FFCA80;
+  --text-tag: #8AFF80;
+  --text-a: #FF80BF;
+  --text-a-hover: #FF80B9;
+  --text-mark: #FFFF80;
+  --interactive-accent: #8AFF80;
+  --blockquote-border: #9580FF;
+  --interactive-accent-rgb: #FFFF80;
+  --dracula-Comment: #708CA9;
+  --code-inline-border: #414D58;
+  --list-indent-color: #80FFEA;
+  --list-formatting-color: #80FFEA;
 }
 
 /* LINKS & BRACKETS */
@@ -181,7 +185,7 @@ code,
 /* borders */
 
 .cm-s-obsidian span.cm-inline-code {
-  border: 1px solid #525660;
+  border: 1px solid var(--code-inline-border);
   border-radius: 4px;
 }
 
@@ -347,7 +351,7 @@ button.mod-cta {
 }
 
 .side-dock-ribbon-tab.is-active .side-dock-ribbon-tab-inner:hover {
-  color: #6272a4 !important;
+  color: var(--dracula-Comment) !important;
   background-color: var(--background-secondary);
 }
 
@@ -694,7 +698,7 @@ ul ul {
 ul ul::before {
   content: "";
   border-left: 1px solid;
-  color: #92CDD6;
+  color: var(--list-indent-color);
   position: absolute;
 }
 
@@ -713,7 +717,7 @@ ul ul::before {
 /* ul, li & ol colors in editor */
 
 .cm-s-obsidian span.cm-formatting-list {
-  color: #8abeb7;
+  color: var(--list-formatting-color);
 }
 
 ol {
